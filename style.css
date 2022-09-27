@@ -1,0 +1,140 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/Montserrat-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: "Fraunces";
+    src: url("./fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    height: 240px;
+    width: 230px;
+    margin-right: 5px;
+}
+
+.page {
+    background-color: hsl(0, 0%, 100%);
+    height: 405px;
+    width: 555px;
+    position: fixed;
+    top: 200px;
+    left: 500px;
+    border: 1px solid none;
+    border-radius: 10px;
+    text-align: left;
+    float: left;
+}
+
+.perfume {
+    height: 405px;
+    width: 250px;
+    margin: 0px 20px 0px 0px;
+    float: left;
+}
+
+.perfume-mobile {
+    height: 210px;
+    width: 300px;
+    margin: 0px 0px 0px 0px;
+    float: left;
+}
+
+.perfume img {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.text {
+    height: 405px;
+    width: 235px;
+    margin: 30px 0px 30px 30px;
+    float: left;
+}
+
+.text a {
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.text h1 {
+    font-family: "Fraunces";
+    font-weight: 700;
+    height: 100px;
+    width: 200px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.text p {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.32px;
+    word-spacing: 0.225px;
+    line-height: 20px;
+    height: 60px;
+    width: 230px;
+    font-size: 14px;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+    margin: 30px 0px 10px;
+}
+
+.price {
+    font-family: "Fraunces";
+    color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    font-size: 30px;
+    height: 27.9px;
+    width: 110px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin: 10px 5px 30px 0px;
+    float: left;
+}
+
+.text .non-price {
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 12px;
+    display: block;
+    height: 20px;
+    width: 60px;
+    margin: 22px 0px 0px 10px;
+    text-align: center;
+    text-decoration: line-through;
+    float: left;
+}
+
+.actions a {
+    font-family: "Montserrat";
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    font-weight: 700;
+    letter-spacing: 1px;
+    height: 20px;
+    width: 210px;
+    border-radius: 5px;
+    font-size: 11px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.actions a:hover {
+    background-color: hsl(158, 36%, 22%);
+}
+
+#cart {
+    margin-right: 10px;
+}

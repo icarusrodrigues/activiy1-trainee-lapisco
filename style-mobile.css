@@ -1,0 +1,85 @@
+.page-mobile {
+    background-color: hsl(0, 0%, 100%);
+    height: 515px;
+    width: 300px;
+    position: fixed;
+    top: 100px;
+    left: 550px;
+    border: 1px solid none;
+    border-radius: 10px;
+    text-align: left;
+    float: left;
+}
+
+.perfume-mobile img {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text-mobile main {
+    width: 250px;
+    height: 190px;
+}
+
+.text-mobile {
+    height: 275px;
+    width: 250px;
+    margin: 15px 0px 0px 25px;
+    float: left;
+}
+
+.text-mobile a {
+    font-family: "Montserrat";
+    color: hsl(228, 12%, 48%);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 3.5px;
+    text-transform: uppercase;
+}
+
+.text-mobile h1 {
+    font-family: "Fraunces";
+    font-size: 30px;
+    font-weight: 700;
+    height: 80px;
+    width: 250px;
+    margin: 5px 0px;
+}
+
+.text-mobile p {
+    font-family: "Montserrat", sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    letter-spacing: 0.32px;
+    word-spacing: 0.15px;
+    line-height: 20px;
+    height: 60px;
+    width: 260px;
+    font-size: 12px;
+    margin: 5px 0px;
+}
+
+.text-mobile .price {
+    width: 90px;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.text-mobile .non-price {
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    font-size: 12px;
+    display: block;
+    width: 65px;
+    margin: 16px 25px;
+    text-decoration: line-through;
+    float: left;
+}
+
+.text-mobile .actions a {
+    font-family: "Montserrat";
+    color: hsl(0, 0%, 100%);
+    letter-spacing: 1px;
+    width: 235px;
+    text-decoration: none;
+    text-transform: none;
+}
